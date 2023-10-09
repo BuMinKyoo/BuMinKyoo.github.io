@@ -116,7 +116,7 @@ img {
 
   display: -ms-grid;
 
-  display: flex;
+  display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
