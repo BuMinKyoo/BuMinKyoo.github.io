@@ -10,12 +10,17 @@ exclude: [vendor/ruby]
 github_username: buminkyoo
 blog_url: https://buminkyoo.github.io/
 email: bmg5243@gmail.com
+tel: 010-4029-5243
 keybase_username: abhn
 twitter_username: abhn_
 reddit_username: abhn
+
+site:
+  home_address: "1234 Elm Street, City, Country"
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
 
 # Google Analytics ID
 google_analytics: 
+

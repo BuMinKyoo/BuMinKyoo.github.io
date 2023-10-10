@@ -124,12 +124,25 @@ img {
   margin: 0 auto;
 }
 
+.head-menu-wrap2 {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  display: flex;
+}
+
 .justify-text {
   text-align: justify;
 }
 
 .progress-bars {
   margin-top: 30px;
+}
+
+.head-icon {
+  color: #222222; /* 어두운색 코드를 사용하세요. */
 }
 
 .skills-grid {
