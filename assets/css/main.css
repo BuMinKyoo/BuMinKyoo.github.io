@@ -40,6 +40,17 @@ img {
   font-weight: bold;
 }
 
+.head-title_birth{
+  display: inline-block;
+  -webkit-transition: color ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
+  font-size: 20px;
+  font-size: 1.0rem;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
 .animated {
   -webkit-animation: fade-in-down 0.6s;
           animation: fade-in-down 0.6s;
@@ -135,6 +146,7 @@ img {
 
 .justify-text {
   text-align: justify;
+  white-space: pre-line;
 }
 
 .progress-bars {
@@ -177,7 +189,7 @@ img {
 
 .section {
   max-width: 768px;
-  margin: 60px auto;
+  margin: 0px auto;
   padding: 20px 0;
   min-height: 100vh;
 
@@ -205,7 +217,7 @@ img {
 
 .section-heading {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-size: 2.5rem;
@@ -235,12 +247,24 @@ img {
   color: #fff;
 }
 
+.section-wrapper:nth-child(odd) .three_paragraph {
+  color: #fff;
+}
+
+
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
-  font-size: 20.8px;
   font-size: 1.3rem;
-  margin: 30px auto;
+  margin: 40px auto;
   color: #404040;
+}
+
+.three_paragraph {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1rem;
+  margin: 0px auto;
+  color: #404040;
+  font-weight: bold;
 }
 
 .paragraph-text-normal {
@@ -465,6 +489,40 @@ a {
   margin: 0 5px;
 }
 
+    /* 전체 컨테이너 스타일 */
+    .container {
+      display: flex; /* Flexbox 레이아웃 사용 */
+      font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+      color: #222;
+  }
+
+  /* 좌측 컬럼 스타일 */
+  .left-column {
+      flex: 2; /* 2:3 비율 */
+      padding: 20px;
+      font-weight: bold;
+      background-color: #ffffff;
+  }
+
+  /* 우측 컬럼 스타일 */
+  .right-column {
+      flex: 3; /* 2:3 비율 */
+      padding: 20px;
+      background-color: #ffffff;
+  }
+  .Other_Experiences {
+      margin-top: 70px;
+  }
+  .Experiences_divide {
+      margin-top: 20px;
+  }
+  .Extitle_sub {
+      margin-left: 10%;
+      font-size: 0.9rem;
+      margin-top: 5%;
+      margin-bottom: 0px;
+  }
+
 .project-technologies {
   display: -ms-grid;
   display: grid;
@@ -530,9 +588,18 @@ a {
     text-align: center;
     font-size: 2.75rem;
   }
+
+  .head-title_birth{
+    display: inline-block;
+    font-size: 20px;
+    font-size: 0.5rem;
+    width: 90%;
+    text-align: center;
+  }
   
   .head-punchline {
     text-align: center;
+    margin-top: 10%;
   }
 
   .skills-grid {
@@ -565,6 +632,27 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
+  .container {
+    display: block; /* Flexbox 레이아웃 사용 */
+ }
+
+    /* 우측 컬럼 스타일 */
+.right-column {
+    flex: 3; /* 2:3 비율 */
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+ }
+
+    /* 좌측 컬럼 스타일 */
+.left-column {
+    flex: 2; /* 2:3 비율 */
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    background-color: #ffffff;
+ }
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {

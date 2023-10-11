@@ -99,3 +99,12 @@ function blog_posts() {
 function blog_link_click(url) {
     window.location = url;
 }
+
+// 집 모양 아이콘을 클릭했을 때의 동작 정의
+document.querySelector('.home-icon-link').addEventListener('click', function(event) {
+    event.preventDefault(); // 기본 링크 동작을 막음
+
+    // 네이버 지도 URL을 만들고 새 창에서 열기
+    var naverMapURL = 'https://map.naver.com/?query=강동구 천호동';
+    window.open(naverMapURL, '_blank');
+});
