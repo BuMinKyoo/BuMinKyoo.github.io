@@ -182,6 +182,10 @@ img {
   grid-gap: 10px;
 }
 
+.Extitle {
+  margin-bottom: 0%;
+}
+
 .full-width {
   width: 100%;
   max-width: 100%;
@@ -510,7 +514,7 @@ a {
       padding: 20px;
       background-color: #ffffff;
   }
-  .Other_Experiences {
+  .Next_Experiences {
       margin-top: 70px;
   }
   .Experiences_divide {
@@ -522,6 +526,12 @@ a {
       margin-top: 5%;
       margin-bottom: 0px;
   }
+  .Extitle_sub_first {
+    margin-left: 10%;
+    font-size: 0.9rem;
+    margin-top: 3%;
+    margin-bottom: 0px;
+}
 
 .project-technologies {
   display: -ms-grid;
