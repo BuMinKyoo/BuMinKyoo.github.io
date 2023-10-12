@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    render_projects('all');
+    render_projects('ALL');
 })
 
 
@@ -17,12 +17,21 @@ let render_projects = (slug) => {
             demo: '',
             technologies: ['C#', 'WPF', 'JSON'],
             description: "공공 API를 활용한 List View",
-            categories: ['All']
+            categories: ['ALL', 'C_sharp', 'WPF', 'JSON']
+        },
+        {
+            image: 'assets/images/BingGoGame.png',
+            link: 'https://github.com/BuMinKyoo/BingGoGame',
+            title: '빙고게임',
+            demo: '',
+            technologies: ['C#', 'WPF'],
+            description: "소켓통신을 이용한 빙고게임(미완성)",
+            categories: ['ALL', 'C_sharp', 'WPF']
         }
     ]
 
     let projects = [];
-    if(slug == 'all') {
+    if(slug == 'ALL') {
         projects = projects_obj.map(project_mapper);
     } 
     else {

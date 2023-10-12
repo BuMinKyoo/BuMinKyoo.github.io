@@ -258,9 +258,10 @@ img {
 
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.3rem;
-  margin: 40px auto;
+  font-size: 1.2rem;
+  margin: 20px auto;
   color: #404040;
+  line-height: 1.6;
 }
 
 .three_paragraph {
@@ -498,6 +499,7 @@ a {
       display: flex; /* Flexbox 레이아웃 사용 */
       font-family: 'PT Sans', Arial, Helvetica, sans-serif;
       color: #222;
+      line-height: 25px;
   }
 
   /* 좌측 컬럼 스타일 */
@@ -519,17 +521,20 @@ a {
   }
   .Experiences_divide {
       margin-top: 20px;
+      height: 1px; /* hr의 세로 두께를 1px로 설정 */
+      background-color: #000; /* hr의 색상을 원하는 색상으로 설정 */
+      border: none; /* hr 주변의 테두리(border)를 없애줍니다. */
   }
   .Extitle_sub {
       margin-left: 10%;
       font-size: 0.9rem;
-      margin-top: 5%;
+      margin-top: 1%;
       margin-bottom: 0px;
   }
   .Extitle_sub_first {
     margin-left: 10%;
     font-size: 0.9rem;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 0px;
 }
 
@@ -558,6 +563,21 @@ a {
 .project-technology:last-child {
   margin-right: 0px;
 }
+
+.item-divide {
+  height: 1px; /* hr의 세로 두께를 1px로 설정 */
+    background-color: #dbdbdb; /* hr의 색상을 원하는 색상으로 설정 */
+    border: none; /* hr 주변의 테두리(border)를 없애줍니다. */
+    margin: 10px 0; /* hr 위아래 여백을 조절 (선택사항) */
+}
+
+.experience {
+  margin-bottom: 100px;
+}
+
+.Work-Experience {
+  margin-top: 100px;
+  }
 
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
