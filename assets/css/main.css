@@ -709,8 +709,4 @@ a {
   .head {
     min-height: 500px;
   }
-
-  .head-menu-wrap {
-    bottom: 15px;
-  }
 }
