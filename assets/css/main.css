@@ -150,7 +150,7 @@ img {
 
 
 .justify-text {
-  text-align: justify;
+  /* text-align: justify; */
   white-space: pre-line;
 }
 
