@@ -27,6 +27,15 @@ let render_projects = (slug) => {
             technologies: ['C#', 'WPF'],
             description: "소켓통신을 이용한 빙고게임(미완성)",
             categories: ['ALL', 'C_sharp', 'WPF']
+        },
+        {
+            image: 'assets/images/WPFHttp.png',
+            link: 'https://github.com/BuMinKyoo/WPFHttp',
+            title: 'WPFHttp',
+            demo: '',
+            technologies: ['C#', 'WPF'],
+            description: "tcp로 통신하는 http 서버",
+            categories: ['ALL', 'C_sharp', 'WPF']
         }
     ]
 
