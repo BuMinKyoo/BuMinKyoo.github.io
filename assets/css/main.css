@@ -509,7 +509,7 @@ a {
 
   /* 좌측 컬럼 스타일 */
   .left-column {
-      flex: 2; /* 2:3 비율 */
+      flex: 2.2; /* 2:3 비율 */
       padding: 20px;
       font-weight: bold;
       background-color: #ffffff;
@@ -681,7 +681,7 @@ a {
 
     /* 좌측 컬럼 스타일 */
 .left-column {
-    flex: 2; /* 2:3 비율 */
+    flex: 2.2; /* 2:3 비율 */
     padding-top: 20px;
     padding-bottom: 0px;
     font-weight: bold;
