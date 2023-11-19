@@ -36,6 +36,24 @@ let render_projects = (slug) => {
             technologies: ['C#', 'WPF'],
             description: "tcp로 통신하는 http 서버",
             categories: ['ALL', 'C_sharp', 'WPF']
+        },
+        {
+            image: 'assets/images/MFCWebFileDown.png',
+            link: 'https://github.com/BuMinKyoo/MFCWebFileDown',
+            title: 'MFCWebFileDown',
+            demo: '',
+            technologies: ['C++', 'MFC'],
+            description: "http통신으로 파일 다운로드 후 배포",
+            categories: ['ALL', 'C++', 'MFC']
+        },
+        {
+            image: 'assets/images/WPF_Kiosk.png',
+            link: 'https://github.com/BuMinKyoo/WPF_Kiosk',
+            title: 'WPF_Kiosk',
+            demo: '',
+            technologies: ['C#', 'WPF'],
+            description: "WPF를 이용한 키오스크 프로그램(개발중2023-11-19)",
+            categories: ['ALL', 'C_sharp', 'WPF']
         }
     ]
 
